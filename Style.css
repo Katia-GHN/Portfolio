@@ -60,9 +60,9 @@ nav a, nav a:visited {
     
     background-image: url('image/backgroundbleu.jpg');
     background-size: cover;
-    position: absolute;
-    
+    position: relative;
 }
+
 /* -------------------------------------------------------------------------------------------- */
 /* -----------SECTION Bienvenue--------- */
 .page-content {
@@ -137,6 +137,56 @@ nav a, nav a:visited {
 .target-site-greta{
     margin-left: 40%;
 }
+/* ---------SECTION SITUATION PRO -------- */
+/*image CV*/
+ img {
+     /* largeur à ne pas dépasser*/
+    width: 30%;
+    margin-left: 35%;
+}
+
+.page-content .bouton-bar {
+  font-family: 'Amita', serif;
+  font-size: 20px;
+  color: color(srgb 12, 105, 112);
+  font-weight: 400;
+  line-height: 24px;
+}
+/* --------- SECTION CONTACT -------- */
+/* Formulaire contact*/
+.form {
+  max-width: 600px;
+  margin: 4rem auto 0 auto;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form textarea {
+  min-height: 200px;
+}
+
+.form .btn {
+  border: none;
+  background: var(--color-body);
+  color: #3da6b4;
+  width: auto;
+  min-width: 160px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.form .btn:hover {
+  cursor: pointer;
+  background: #0b6141;
+}
+
+
 
 /* --------- EN SAVOIR PLUS ------------- */
 .page-content .bouton-ensavoirplus {
